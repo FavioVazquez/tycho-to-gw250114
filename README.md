@@ -230,6 +230,8 @@ cd agnostic-fit && python3 fit.py
 shasum -a 256 MODEL.json   # compare with FROZEN.txt
 ```
 
+A rerun of these commands on 16 October 2026 wrote a `MODEL.json` whose sha256 matches `FROZEN.txt`, and a `work/results.json` identical to the committed one.
+
 The prescribed-model fit is `blind-fit/fit.py` (copy `out/mars_positions.csv` into `blind-fit/` first), and each disguised run has its own `fit.py` and `positions.csv` under `disguised/`. `TRANSCRIBE-GUIDE.md` lists the transcription tools.
 
 ### Mercury from Newcomb's transit contacts
