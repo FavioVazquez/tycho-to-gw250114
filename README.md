@@ -27,6 +27,7 @@ The agents were never told the expected answer. A written protocol kept it out o
 - [How the protocol works](#how-the-protocol-works)
 - [What the protocol caught](#what-the-protocol-caught)
 - [What this does not show](#what-this-does-not-show)
+- [The films](#the-films)
 - [Repository layout](#repository-layout)
 - [Key output files](#key-output-files)
 - [Reproduce an episode](#reproduce-an-episode)
@@ -120,6 +121,18 @@ Explanations failed more often than measurements: twice the agents' interpretati
 
 > [!NOTE]
 > **GW250114: the claim was withheld, not refuted.** The minimum P of 0.86 is below the pre-registered 0.90. The paper does not claim the area grew, and does not claim it did not.
+
+## The films
+
+Three short films walk through the records and the results. They play on the [paper's page](https://roadtoreality.dev/tycho-to-gw250114/#films).
+
+| Film | What it shows |
+|---|---|
+| GW250114 | The detector strain of GW250114 from GWOSC, with the orbit and the black holes drawn in time with it, then the area test and the rule that withheld the claim. |
+| Kepler from Tycho's logs | Tycho's positions of Mars with the years 1596–1601 withheld, and the two Keplerian orbits that predicted them to a median of 2.46′. |
+| Mercury from Newcomb's contacts | Newcomb's 58 transit contacts of 1677–1881, fitted with a Newtonian model, and the extra perihelion advance of 43.71 ± 1.04″ per century that they require. |
+
+Every number in the films comes from the paper or its deposited record. The films were made with [showtime](https://github.com/FavioVazquez/showtime).
 
 ## Repository layout
 
