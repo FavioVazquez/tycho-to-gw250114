@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper (preferred citation) and, for the data and code, the dataset record."
+title: "From the observations of Tycho Brahe to GW250114: three results in physics re-measured with the answer withheld"
+type: software
+authors:
+  - family-names: "Vázquez"
+    given-names: "Favio"
+    orcid: "https://orcid.org/0009-0005-4591-1873"
+    affiliation: "Independent researcher"
+repository-code: "https://github.com/FavioVazquez/tycho-to-gw250114"
+license: [MIT, CC-BY-4.0]
+date-released: 2026-10-16
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23410498
+    description: "The paper (preprint)"
+  - type: doi
+    value: 10.5281/zenodo.23410453
+    description: "The dataset: ringdown posterior samples and the code snapshot at commit b6b0b05"
+keywords:
+  - history of physics
+  - Kepler's laws
+  - Mercury perihelion
+  - gravitational waves
+  - GW250114
+  - black hole area theorem
+  - reproducibility
+  - pre-registration
+  - AI agents
+preferred-citation:
+  type: article
+  title: "From the observations of Tycho Brahe to GW250114: three results in physics re-measured with the answer withheld"
+  authors:
+    - family-names: "Vázquez"
+      given-names: "Favio"
+      orcid: "https://orcid.org/0009-0005-4591-1873"
+  year: 2026
+  publisher:
+    name: "Zenodo"
+  doi: 10.5281/zenodo.23410498
+  url: "https://doi.org/10.5281/zenodo.23410498"
+references:
+  - type: dataset
+    title: "Road re-measured: ringdown posterior samples and code snapshot (commit b6b0b05)"
+    authors:
+      - family-names: "Vázquez"
+        given-names: "Favio"
+    year: 2026
+    publisher:
+      name: "Zenodo"
+    doi: 10.5281/zenodo.23410453
