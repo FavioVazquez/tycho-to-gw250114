@@ -127,7 +127,7 @@ Explanations failed more often than measurements: twice the agents' interpretati
 .
 ├── paper/                      the paper (the Zenodo deposit file)
 ├── docs/figures/               the paper's figures as PNG, for this page
-├── remeasured/                 the record: a byte-identical copy of roadtoreality@b6b0b05:remeasured/
+├── remeasured/                 the record, byte-identical to roadtoreality@b6b0b05
 │   ├── PROTOCOL.md             the written protocol
 │   ├── ep1-kepler-tycho/       Kepler from Tycho's Mars logs
 │   │   ├── fetch.sh            download the page scans; SHA256SUMS checks them
@@ -200,7 +200,8 @@ unzip /path/to/ringdown-samples.zip -d /tmp
 cp /tmp/ringdown-samples/*.npz results/ringdown/
 L1=../premerger-box/GW250114_082203_IMRPhenomXPHM_fmax131_full_nlive1000_posterior.csv.gz
 L2=../premerger/samples/GW250114_082203_premerger_posterior.csv.gz
-python -I scripts/area_task4.py --premerger lane1_XPHM_fmax131=$L1 --premerger lane2_XPHM_fmax131=$L2
+python -I scripts/area_task4.py \
+  --premerger lane1_XPHM_fmax131=$L1 --premerger lane2_XPHM_fmax131=$L2
 git diff --stat results/area_task4.csv
 ```
 
