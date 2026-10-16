@@ -281,7 +281,7 @@ It prints `ccef0ddb4947eec406d809209fb88aeca8617497`, the same id as `git rev-pa
 Please cite the paper; for the data and code, also cite the dataset.
 
 ```bibtex
-@misc{vazquez2026tycho,
+@misc{vazquez2026tychotogw250114,
   author    = {V{\'a}zquez, Favio},
   title     = {From the observations of {Tycho Brahe} to {GW250114}: three results in physics re-measured with the answer withheld},
   year      = {2026},
@@ -291,7 +291,7 @@ Please cite the paper; for the data and code, also cite the dataset.
   note      = {Preprint}
 }
 
-@misc{vazquez2026remeasureddata,
+@misc{vazquez2026tychotogw250114data,
   author    = {V{\'a}zquez, Favio},
   title     = {Road re-measured: ringdown posterior samples and code snapshot (commit b6b0b05)},
   year      = {2026},
